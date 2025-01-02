@@ -6,7 +6,7 @@ export class Configuration {
     storage
     constructor() {
         this.client.setEndpoint('https://cloud.appwrite.io/v1')
-            .setProject("67627334002b344da3c0")
+            .setProject("project-id")
 
         this.database = new Databases(this.client)
         this.storage = new Storage(this.client)
